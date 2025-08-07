@@ -1,0 +1,42 @@
+<style type="text/css">
+<!--
+.div_left { width:225px;}
+-->
+</style>
+<td>
+	<div class="config2">
+		<p class="bk_orange"><span id="lang_title">WLAN QoS Configuration</span></p>
+		<div class="div_black">
+			<div class="div_left" id="lang_WlanQosEnable">Enable</div>
+			<div class="div_right">&nbsp;<input type="checkbox" id="INPUT_WlanQosEnable"></div>	
+		</div>
+
+		<p class="do bk_black" id="lang_WlanQueueConfig_up">Upstream Bandwidth Configuration</p>
+		<div class="div_black">
+			<table class="td_table_l" id="td_config_up">
+				<tr class="tr_bold">
+					<td id="lang_enable_up">Enable</td>
+					<td id="lang_name_up">Interface name</td>
+					<td id="lang_upstreambandWidth">Upstream Bandwidth(Kbps)</td>
+				</tr>
+			</table>
+		</div>
+		
+		<p class="do bk_black" id="lang_WlanQueueConfig_down"> Downstream Bandwidth Configuration</p>
+		<div class="div_black">
+			<table class="td_table_l" id="td_config_down">
+				<tr class="tr_bold">
+					<td id="lang_enable_up">Enable</td>
+					<td id="lang_name_up">Interface name</td>
+					<td id="lang_downstreambandWidth">Downstream Bandwidth(Kbps)</td>
+				</tr>
+			</table>
+		</div>
+	
+		 <div class="div_button">
+			<input type="submit" id = "submit" value="Apply" name="submit" onClick="uiSubmit();"/> 
+			<input type="button" id = "refresh" value="Cancel" name="cancle" onClick="uiPageRefresh()" />
+		</div>
+		<form name="uiPostForm" id="uiPostForm" method="post" action="webproc"></form>
+	</div>
+</td>

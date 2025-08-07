@@ -1,0 +1,28 @@
+		<td>
+			<div class="config1">
+				<p class="bk_black" id = "lang_DSL_test">Diagnostics -- DSL Test</p>
+				<div class="div_black">
+					<p id = "lang_DSLtest_introduction">
+						DSL Test helps to diagnose the DSL connection.
+					</p>
+					<div class="div_button"><input type="button" id="DSLtest" value="DSL Test" onClick="DSLtest()"/></div>
+				</div>
+				<?if eq 1 $var:mod_TRACERT
+				`
+				<p class="do bk_black" id = "lang_trace_route">Diagnostics -- Traceroute</p>
+				<div class="div_black">
+					<p id = "lang_Traceroute_introduction">
+						The traceroute diagnostics function sends packets to determine the routers on the Internet.
+					</p>
+					<div class="div_button"><input type="button" id="Traceroute" value="Traceroute" onClick="Traceroute()"/></div>
+				</div>
+				`?>		
+				<p class="do bk_black" id = "lang_BER_test">Diagnostics -- BER test</p>
+				<div class="div_black">
+					<p id = "lang_BERtest_introduction">
+						The bit error rate is the number of bit errors divided by the total number of transferred bits during a studied time interval. It is a unitless performance measure.
+					</p>
+					<div class="div_button"><input type="button" id="BERtest" value="BER test" onClick="BERtest()"/></div>
+				</div>
+		    </div>
+		</td>

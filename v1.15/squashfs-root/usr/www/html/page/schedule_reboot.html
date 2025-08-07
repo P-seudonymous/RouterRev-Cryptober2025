@@ -1,0 +1,54 @@
+<style type="text/css"><!--
+.div_left { width:225px;}
+.fix { padding-top:0px;}
+input.timeLength { width:30px;}
+input.timeLengthyear { width:30px;}
+--></style>
+<td>
+	<div class="config2">
+		<p class="bk_orange" id="lang_tmie_reboot">Scheduled Reboot</p>
+		<div class="div_orange">
+			<p id="lang_dec"> Scheduled Reboot allows you to set a countdown time, after the time, your Router will reboot</p>
+		</div>
+		<p class="do bk_black" id="lang_time_reboot">Scheduled Reboot</p>				
+		<div class="div_black">
+			<div class="div_left"></div>
+			<div class="div_right">
+				<input type="radio" name="INPUT_Disable_Enable" value="0" onClick="changeSelect(0)" />
+				<span id = "lang_ethernet">Disable </span>
+				<input type="radio" name="INPUT_Disable_Enable" value="1" onClick="changeSelect(1)"/>Enable
+			</div>
+			<div id="display_time">
+				<div class="div_left"></div>
+				<div class="div_right">
+					<input id='sunday' name='sunday' type=checkbox><label for=sunday id="lang_Sun">Sun</label>&nbsp;&nbsp;
+					<input id='monday' name='monday'  type=checkbox><label for=monday id="lang_Mon">Mon</label>&nbsp;&nbsp;
+					<input id='tuesday' name='tuesday' type=checkbox><label for=tuesday id="lang_Tue">Tue</label>&nbsp;&nbsp;
+					<input id='wednesday' name='wednesday'  type=checkbox><label for=wednesday id="lang_Wed">Wed</label>&nbsp;&nbsp;
+					<input id='thursday' name='thursday' type=checkbox><label for=thursday id="lang_Thu">Thu</label>&nbsp;&nbsp;
+					<input id='friday' name='friday' type=checkbox><label for=friday id="lang_Fri">Fri&nbsp;&nbsp;</label>&nbsp;&nbsp;
+					<input id='saturday' name='saturday'  type=checkbox><label for=saturday id="lang_Sat">Sat</label>
+				</div>
+				
+				<div class="div_left"><label for="startTimeH" id="lang_StartTime3">Start Time&nbsp;:</label></div>
+				<div class="div_right">
+					<INPUT id='startTimeH' name='startTimeH' style="WIDTH: 40px" maxLength=2> :
+					<INPUT id='startTimeM' name='startTimeM' style="WIDTH: 40px" maxLength=2> <span id="lang_time0">&nbsp;&nbsp;(hour:minute, 24 hour time)</span>
+				</div>	
+			</div>
+		
+			<div class="div_button">
+				<input type="submit" name="submit" id="submit" value="Apply" onClick="uiSubmit();"/>
+				<input type="button" name="refresh" id="refresh" value="Cancel" onClick="uiPageRefresh()">
+			</div>
+		</div>
+	</div>		
+</td>
+<td class="td_help">
+	<div class="help">
+	<h5 id="lang_helph1">Helpful Hints... </h5>
+	<p id="lang_helpp1">Good timekeeping is important for accurate logs and scheduled firewall rules.</p>
+	<p id="lang_helpp2">For certain time zones, enable daylight saving, to ensure that the router maintains the correct time throughout the year.</p>
+	<h5 ><a href="#" id="lang_helph2">More...</a></h5>
+	</div>
+</td>

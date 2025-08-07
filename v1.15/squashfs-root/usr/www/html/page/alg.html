@@ -1,0 +1,37 @@
+<td>
+	<div class="config2">
+		<p class="bk_orange" id="lang_alg">ALG Configuration</p>
+		<div class="div_orange">
+			<p id="lang_dsc">You can Enable or Disable the specific protocol of alg.</p>
+		</div>
+		<p class="do bk_black">ALG Settings</p>
+		<div class="div_black">
+			<div class="div_left" id="lang_tftp">TFTP Pass Through</div><div class="div_middle">&nbsp;<input type="checkbox" name="INPUT_TFTPEnabled" id="INPUT_TFTPEnabled" value="" /></div><div class="div_right">&nbsp;</div>
+			<div class="div_left" id="lang_ftp">FTP Pass Through</div><div class="div_middle">&nbsp;<input type="checkbox" name="INPUT_FTPEnabled" id="INPUT_FTPEnabled" value="" /></div><div class="div_right">&nbsp;</div>
+			<div class="div_left" id="lang_pptp">PPTP Pass Through</div><div class="div_middle">&nbsp;<input type="checkbox" name="INPUT_PPTPEnabled" id="INPUT_PPTPEnabled" value="" /></div><div class="div_right">&nbsp;</div>
+			<div class="div_left" id="lang_rtsp">RTSP Pass Through</div><div class="div_middle">&nbsp;<input type="checkbox" name="INPUT_RTSPEnabled" id="INPUT_RTSPEnabled" value="" /></div><div class="div_right">&nbsp;</div>
+			<div class="div_left" id="lang_l2tp">L2TP Pass Through</div><div class="div_middle">&nbsp;<input type="checkbox" name="INPUT_L2TPEnabled" id="INPUT_L2TPEnabled" value="" /></div><div class="div_right">&nbsp;</div>
+			<div class="div_left" id="lang_h323">H323 Pass Through</div><div class="div_middle">&nbsp;<input type="checkbox" name="INPUT_H323Enabled" id="INPUT_H323Enabled" value="" /></div><div class="div_right">&nbsp;</div>
+			<div class="div_left" id="lang_sip">SIP Pass Through</div><div class="div_middle">&nbsp;<input type="checkbox" name="INPUT_SIPEnabled" id="INPUT_SIPEnabled" value="" /></div><div class="div_right">&nbsp;</div>
+			<div class="div_left" id="lang_ipsec">IPSEC Pass Through</div><div class="div_middle">&nbsp;<input type="checkbox" name="INPUT_IPSECEnabled" id="INPUT_IPSECEnabled" value="" /></div><div class="div_right">&nbsp;</div>
+		</div>
+		<div class="div_button">
+			<input type="button" name="submit" id="submit" value="Submit" onClick="uiSubmit();"/>
+			<input type="button" name="refresh" id="refresh" value="Refresh" onClick="uiPageRefresh()"/>
+		</div>
+		<form name="uiPostForm" id="uiPostForm" method="post" action="webproc"></form>
+	</div>
+</td>
+<!-- help -->
+<td class="td_help">
+	<div class="help">
+		<h5 id="lang_help">Helpful Hints...</h5>
+		<div>
+			<p id="lang_helpdsc">
+				You can Enable or Disable ALG by protocols separately.
+			</p>
+		</div>
+		<h5><a href="#" id="lang_help_more">More...</a></h5>
+	</div>
+</td>
+

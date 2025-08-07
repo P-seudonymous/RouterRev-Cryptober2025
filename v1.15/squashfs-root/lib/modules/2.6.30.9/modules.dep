@@ -1,0 +1,23 @@
+/lib/modules/2.6.30.9/kernel/drivers/scsi/scsi_wait_scan.ko: 
+/lib/modules/2.6.30.9/kernel/net/netfilter/nf_conntrack_proto_gre.ko: 
+/lib/modules/2.6.30.9/kernel/drivers/usb/class/usblp.ko: 
+/lib/modules/2.6.30.9/kernel/net/ipv4/netfilter/nf_nat_sip.ko: /lib/modules/2.6.30.9/kernel/net/netfilter/nf_conntrack_sip.ko
+/lib/modules/2.6.30.9/kernel/net/netfilter/nf_conntrack_rtsp.ko: 
+/lib/modules/2.6.30.9/kernel/net/ipv4/netfilter/nf_nat_h323.ko: /lib/modules/2.6.30.9/kernel/net/netfilter/nf_conntrack_h323.ko
+/lib/modules/2.6.30.9/kernel/drivers/leds/leds-rtl8676.ko: /lib/modules/2.6.30.9/kernel/drivers/leds/led-tbscore.ko
+/lib/modules/2.6.30.9/kernel/net/netfilter/nf_conntrack_sip.ko: 
+/lib/modules/2.6.30.9/kernel/net/ipv4/netfilter/nf_nat_pptp.ko: /lib/modules/2.6.30.9/kernel/net/ipv4/netfilter/nf_nat_proto_gre.ko /lib/modules/2.6.30.9/kernel/net/netfilter/nf_conntrack_pptp.ko
+/lib/modules/2.6.30.9/kernel/net/netfilter/nf_conntrack_l2tp.ko: 
+/lib/modules/2.6.30.9/kernel/net/netfilter/nf_conntrack_ftp.ko: 
+/lib/modules/2.6.30.9/kernel/net/ipv4/netfilter/nf_nat_ipsec.ko: /lib/modules/2.6.30.9/kernel/net/netfilter/nf_conntrack_ipsec.ko
+/lib/modules/2.6.30.9/kernel/net/ipv4/netfilter/nf_nat_tftp.ko: /lib/modules/2.6.30.9/kernel/net/netfilter/nf_conntrack_tftp.ko
+/lib/modules/2.6.30.9/kernel/drivers/usb/serial/usbserial.ko: 
+/lib/modules/2.6.30.9/kernel/net/netfilter/nf_conntrack_ipsec.ko: 
+/lib/modules/2.6.30.9/kernel/net/ipv4/netfilter/nf_nat_rtsp.ko: /lib/modules/2.6.30.9/kernel/net/netfilter/nf_conntrack_rtsp.ko
+/lib/modules/2.6.30.9/kernel/net/netfilter/nf_conntrack_tftp.ko: 
+/lib/modules/2.6.30.9/kernel/drivers/leds/led-tbscore.ko: 
+/lib/modules/2.6.30.9/kernel/drivers/usb/storage/usb-storage.ko: 
+/lib/modules/2.6.30.9/kernel/net/netfilter/nf_conntrack_h323.ko: 
+/lib/modules/2.6.30.9/kernel/net/ipv4/netfilter/nf_nat_proto_gre.ko: 
+/lib/modules/2.6.30.9/kernel/net/netfilter/nf_conntrack_pptp.ko: /lib/modules/2.6.30.9/kernel/net/netfilter/nf_conntrack_proto_gre.ko
+/lib/modules/2.6.30.9/kernel/net/ipv4/netfilter/nf_nat_ftp.ko: /lib/modules/2.6.30.9/kernel/net/netfilter/nf_conntrack_ftp.ko

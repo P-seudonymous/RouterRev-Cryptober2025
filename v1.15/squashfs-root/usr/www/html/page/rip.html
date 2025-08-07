@@ -1,0 +1,38 @@
+		<!-- config -->
+		<td>
+			<div class="config2">
+				<p class="bk_orange" id = "lang_config">RIP Configuration</p>
+				<div class="div_orange">
+					<p id = "lang_introction">
+					To activate RIP for the device, select the "Enabled" checkbox for Global RIP Mode. To configure an individual interface, select the desired RIP version and operation, followed by placing a check in the "Enabled" checkbox for the interface. Click the "Apply" button to save the configuration, and to start or stop RIP based on the Global RIP Mode selected. 
+                    </p>
+				</div>
+			<p class="do bk_black" id = "lang_rip">RIP</p>
+			<div class="div_black">
+			    <table class="td_table_s" id='td_wanriplist'>
+				<tr class="tr_bold">
+					<td id = "lang_interface">Interface</td>
+					<td id = "lang_version">Dynamic Route</td>
+					<td id = "lang_operation">Direction</td>
+				</tr>
+			    </table>		
+			</div>
+			<div class="div_button do">
+				<input type="button" name="submit" id="Apply" value="Apply" onClick="uiSubmit();">&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="button" name="Cancel" id="refresh" id="Cancel" value="Cancel" onClick="uiPageRefresh();">
+			</div>
+		</td>
+		<!-- help -->
+		<td class="td_help">
+			<div class="help">
+				<h5 id = "lang_help_hint">Helpful Hints...</h5>
+				<div>
+				<p id = "lang_help">
+					Enabling RIP provides a protocol that determines the best path to a target by estimating the distance in number of hops or intermediate routers.
+				</p>
+				</div>
+				<h5><a href="#"  id = "lang_more">More...</a></h5>
+			</div>
+		</td>
+	</tr>
+</table>		

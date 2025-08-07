@@ -1,0 +1,40 @@
+<style type="text/css">
+<!--
+.div_left { padding-left:120px; width:150px;}
+-->
+</style>
+
+		<td>
+			<div class="config2">
+				<p class="bk_orange" id="lang_BerTest">BER Test</p>
+				<div class="div_orange">
+					<p id="lang_berdesc">The BER(bit error rate) is the number of bit errors divided by the total number of transferred bits during a studied time interval.
+					                 Please set time interval and click "Begin BER Test" for the test, and wait the test result for the time interval.</p>
+				</div>
+				<p class="do bk_black">&nbsp;</p>
+				
+                <div class="div_black">
+				     <div class="div_left" id="lang_TimeInterval">Time Interval : </div>
+					 <div class="div_right"><input type="text" id="INPUT_TimeInterval" /> (1~65535s)</div>
+				</div>
+				<div class="div_button">
+					<input id="btn_BerTest" type="button" value="Begin Ber Test" onClick="uiSubmit()"/> 
+				</div>
+				<p class="do bk_black"  id = "lang_BerResult">Result</p>
+				<div class="div_black">
+					<div align="center">
+						<textarea name="BerTest_Output" id="BerTest_Output" cols="45" rows="10" wrap="virtual">
+						</textarea>
+					</div>
+				</div>
+			</div>
+		</td>
+		<td class="td_help">
+			<div class="help">
+				<h5 id = "lang_ber_help_hint">Helpful Hints...</h5>
+				<p id = "lang_ber_help">
+					The bit error rate is the number of bit errors divided by the total number of transferred bits during a studied time interval. It is a unitless performance measure.
+				</p>
+				<h5><a href="#" id="lang_ber_help_more">More...</a></h5>				
+			</div>
+		</td>

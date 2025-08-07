@@ -1,0 +1,52 @@
+var data_language = {
+	innerHTML : {
+		lang_tunnel_global : 'Ip Tunnel Configuration',
+		lang_tunnel : '6rd is a mechanism to facilitate IPv6 rapid deployment across IPv4 infrastructures of Internet service providers.',
+		lang_tunnel2 : 'It is derived from 6to4, a preexisting mechanism to transfer IPv6 packets over the IPv4 network, with the significant change that it operates entirely within the end-user"s ISP"s network, thus avoiding the major architectural problems inherent in the original design of 6to4.',
+		lang_TunnelSetting : 'IpTunnel',
+		lang_tunnelName : 'Tunnel Name',
+		lang_Mode : 'Mode',
+		lang_Waninterface : 'Wan interface',
+		lang_Laninterface : 'Lan interface',
+		lang_Activated : 'Activated',
+		lang_Counter : 'Counter',
+		lang_AddTunnelItems : 'Add Tunnel Items ',
+		lang_tunnelName2 : 'Tunnel Name:',
+		lang_tunnelMode : 'Tunnel Mode',
+		lang_Waninterface2 : 'Wan Interface:',
+		lang_Laninterface2 : 'Lan Interface:',
+		lang_IPv6RapidD : 'IPv6 Rapid Deployment',
+		lang_Mechanism : 'Mechanism',
+		lang_Dynamic : 'Dynamic',
+		lang_IPv4MaskLen : 'IPv4MaskLen',
+		lang_Prefix : 'Prefix',
+		lang_BorderRelayAddress : 'BorderRelayAddress',
+		lang_ConnStatus : 'ConnStatus',
+		lang_Select : 'Select ',
+		lang_IPv6RapidDeploymentL : 'IPv6 Rapid Deployment List',
+		lang_Mechanism2 : 'Mechanism:',
+		lang_Dynamic : 'Dynamic:',
+		lang_IPv4MaskLen : 'IPv4MaskLen:',
+		lang_Prefix : 'Prefix:',
+		lang_BorderRelayAddress : 'BorderRelayAddress:',
+		lang_help : 'Helpful Hints...',
+		lang_helpdsc0 : 'this is a ip tunnel configuration.',
+		lang_help_more : 'More...'
+	},
+	value : {
+		addTunnel : ' Add ',
+		editTunnel : ' Edit ',
+		removeTunnel : ' Delete ',
+		submit : 'Apply',
+		CancelEdit : 'Cancel',
+		addIpv6rd : 'Add',
+		editIpv6rd : 'Edit',
+		deleteIpv6rd : 'Delete',
+		apply : 'Apply',
+		cancle : 'Cancel'
+	},
+	option_text : {
+		SELECT_Ipv6rdMechanism : ['Ipv6RapidDeployment'],
+		SELECT_Ipv6rdDynamic : ['0', '1', 'DHCPv6']
+	}
+}
